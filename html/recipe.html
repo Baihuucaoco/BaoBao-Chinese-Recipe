@@ -1,47 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Recipes</title>
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body style="margin: 0">
+    <header>
+      <nav
+        class="container"
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          padding: 13px 50px 13px 50px;
+          background-color: rgb(115, 103, 21);
+          width: auto;
+        "
+      >
+        <div style="display: flex; align-items: center">
+          <a href="../index.html"
+            ><img style="width: 90px" src="../img/ch2ngchong.png" alt=""
+          /></a>
 
-</head>
-<body style="margin: 0; ">
-    <nav
-      class="container"
-      style="
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 13px 50px 13px 50px;
-        background-color: rgb(115, 103, 21);
-        width: auto;
-      "
-    >
-      <div style="display: flex; align-items: center">
-        <a href="../index.html"
-          ><img style="width: 90px" src="../img/ch2ngchong.png" alt=""
-        /></a>
-        
-        <div class="some">
-          <a class="nav-items" href="../index.html">Home</a>
-          <a class="nav-items" href="recipe.html">Recipe</a>
-          <a class="nav-items" href="contact.html">About</a>
+          <div class="some">
+            <a class="nav-items" href="../index.html">Home</a>
+            <a class="nav-items" href="recipe.html">Recipe</a>
+            <a class="nav-items" href="contact.html">About</a>
+          </div>
         </div>
-      </div>
-      <div class="thing">
-        <a class="nav-items" href="../login n signup/login.html">Login</a>
+        <div class="thing">
+          <a class="nav-items" href="../login n signup/login.html">Login</a>
 
-        <a class="nav-items" href="../login n signup/sign up.html">Sign up</a>
-      </div>
-    </nav>
-    <section style="margin: 40px; background-image: url(../img/menu_bar.jpg); ">
-    <h1>Recipes</h1>
-    <div id="product"></div></section>
+          <a class="nav-items" href="../login n signup/sign up.html">Sign up</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section style="margin: 40px; background-image: url(../img/menu_bar.jpg)">
+        <h1>Recipes</h1>
+        <div id="product"></div>
+      </section>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="../js/api.js"></script>
-    
-</body>
+  </body>
 </html>
