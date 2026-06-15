@@ -9,7 +9,7 @@ async function handleSubmitLogin(e) {
         await firebase.login(email, password);
         alert("Đăng nhập thành công");
         
-		window.location.href="/html/home.html"
+		window.location.href="index.html"
 		
     } catch (error) {
         alert("Something went wrong" + error.message);
